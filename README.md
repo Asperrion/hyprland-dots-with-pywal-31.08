@@ -9,6 +9,7 @@
 8. kitty
 9. pywal16
 10. pavucontrol
+11. yay (для установки программ и шрифтов)
 
 ## Основные папки:
 1. ~/themes (сохранение тем для системы от pywal)
@@ -28,6 +29,4 @@
 2. директория hyprland называется hypr
 3. основаная директория конфигураций это ~/.config/, в ней и создавайте директории конфигураций для приложений
 
-```sudo pacman -S ttf-dejavu ttf-liberation noto-fonts ttf-font-awesome adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts && yay -S noto-fonts-emoji ttf-joypixels ttf-twemoji otf-openmoji ttf-symbola nerd-fonts```
-/\
-|| основные шрифты для работы системы
+```sudo pacman -S ttf-dejavu ttf-liberation noto-fonts ttf-font-awesome adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts && yay -S noto-fonts-emoji ttf-joypixels ttf-twemoji otf-openmoji ttf-symbola nerd-fonts``` <- основные шрифты для работы системы
