@@ -1,0 +1,63 @@
+@import url("colors-waybar.css");
+
+* {
+    font-family: jetbrains mono nerd font;
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+}
+
+#workspaces, 
+#clock,
+#custom-arch,
+#memory,
+#cpu,
+#custom-power,
+#custom-weather,
+#language {
+  color: @foreground;
+  padding: 1px 10px;
+  background-color: rgba(20, 20, 20, 0.72);
+  border-radius: 8px; 
+  border: 1px solid @color2;
+  margin: 6px 3px 0;
+}
+
+#custom-weather {
+  margin-right: 0px;
+}
+
+#custom-sound,
+#network {
+  color: @foreground;
+  background-color: rgba(20, 20, 20, 0.72);
+  padding: 0 12px;
+  border: 1px solid @color2;
+  margin: 6px 0 0;
+}
+
+#custom-sound {
+  border-radius: 8px 0px 0px 8px;
+  margin-left: 3px; 
+  border-right: none;
+}
+
+#network {
+  margin-right: 3px;
+  padding-right: 8px;
+  border-radius: 0 8px 8px 0;
+  border-left: none;
+}
+
+#workspaces button {
+  color: #747474
+}
+
+#workspaces button.active,
+#custom-arch,
+#custom-power {
+  color: @color3;
+}
