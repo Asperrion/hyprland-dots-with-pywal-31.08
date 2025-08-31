@@ -1,15 +1,23 @@
 ## Зависимости:
-1. fuzzel
-2. fish
-3. hyprshot
-4. hyprland
-5. swww
-6. pfetch
-7. neovim
-8. kitty
-9. pywal16
-10. pavucontrol
-11. yay (для установки программ и шрифтов)
+1. fuzzel (pacman)
+2. fish (pacman)
+3. hyprshot (pacman)
+4. hyprland (pacman)
+5. swww (pacman)
+6. pfetch (yay)
+7. neovim (pacman)
+8. kitty (pacman)
+9. pywal16 (yay)
+10. pavucontrol (pacman)
+
+(данная кастомизация был сделана на archlinux если у вас другой дистрибутив ищите как скачать те или иные пакеты на свой дистро!)
+
+Установка пакетов в Arch:
+sudo pacman -S <program-name>
+Установка yay для AUR:
+1. ```git clone https://aur.archlinux.org/yay.git```
+2. ```cd yay```
+3. ```makepkg -si```
 
 ## Основные папки:
 1. ~/themes (сохранение тем для системы от pywal)
