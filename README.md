@@ -9,7 +9,6 @@
 8. kitty (pacman)
 9. pywal16 (yay)
 10. pavucontrol (pacman)
-11. [plug](https://github.com/junegunn/vim-plug) (плагин для неовим)
 
 (данная кастомизация был сделана на archlinux если у вас другой дистрибутив ищите как скачать те или иные пакеты на свой дистро!)
 
